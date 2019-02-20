@@ -1,0 +1,30 @@
+{
+  "name": "vue3.0",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "dev": "vue-cli-service serve",
+    "inspect": "vue-cli-service inspect",
+    "test": "vue-cli-service build --test && vue-cli-service thsb2c --mode production --test",
+    "release": "vue-cli-service build && vue-cli-service thsb2c --mode production",
+    "git": "node thsi-util/git"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "shelljs": "^0.8.3",
+    "vue-template-compiler": "^2.5.17",
+    "vue-cli-plugin-thsb2c": "^0.0.2"
+  },
+  "browserslist": [
+    "Chrome 49"
+  ]
+}
